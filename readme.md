@@ -1,7 +1,7 @@
 # Pandora
 A SlowLoris Python implementation
 
-### Installation
+## Installation
 Clone the repo, `cd` in, and you're good to go.
 
 ```
@@ -10,7 +10,7 @@ cd pandora
 python pandora.py my-server.com:3000/test 250 5
 ```
 
-### Usage
+## Usage
 *Flags? Flags??? We don't need no stinkin' flags!*
 
 Usage is as follows:
@@ -19,26 +19,26 @@ Usage is as follows:
 python pandora.py address[:port][/path] [sockets] [timeout] [message]
 ```
 
-##### `address`
+### `address`
 > the address to connect the sockets to  
 this argument has no default
 
-##### `port`
+### `port`
 > the port to connect to  
 default: `80`
 
-##### `path`
+### `path`
 > the server route to hit  
 default: `/`
 
-##### `sockets`
+### `sockets`
 > the number of sockets to create  
 default: `200`
 
-##### `timeout`
+### `timeout`
 > the time, in seconds, it takes for the sockets to time out and disconnect  
 default: `10`
 
-##### `message`
+### `message`
 > the message to send in the `keepalive` headers  
 default: `deadbeef`
